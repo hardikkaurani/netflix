@@ -1,0 +1,75 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  color: #000;
+  text-align: center;
+}
+
+/* Header */
+header {
+  background-color: #e50914; /* Netflix Red */
+  color: white;
+  padding: 15px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+/* Main Section */
+main {
+  padding: 20px;
+}
+
+main h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+main p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+main img {
+  width: 400px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Review Section */
+.reviews {
+  margin: 40px auto;
+  padding: 20px;
+  max-width: 600px;
+  background-color: #ffecec;
+  border-radius: 8px;
+  text-align: left;
+}
+
+.reviews strong {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
